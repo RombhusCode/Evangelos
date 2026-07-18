@@ -220,6 +220,7 @@ __marimo__/
 # Local application data
 data/*.sqlite3
 data/*.sqlite3-*
+data/whatsapp-profile/
 
 # Playwright browser binaries
 .playwright-browsers/
