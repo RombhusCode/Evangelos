@@ -1,0 +1,6 @@
+streamlit>=1.36,<2
+sqlalchemy>=2.0,<3
+playwright>=1.45,<2
+ollama>=0.3,<1
+python-dotenv>=1.0,<2
+pytest>=8.2,<9
