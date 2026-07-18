@@ -5,12 +5,23 @@ from collector.auth import (
     WhatsAppAuthenticator,
     WhatsAppAuthConfig,
 )
-from collector.whatsapp import fetch_messages, sync
+from collector.whatsapp import (
+    ChatSummary,
+    WhatsAppChatCollector,
+    WhatsAppDiscoveryError,
+    discover_chats,
+    fetch_messages,
+    sync,
+)
 
 __all__ = [
+    "ChatSummary",
+    "WhatsAppChatCollector",
     "WhatsAppAuthenticationError",
     "WhatsAppAuthenticator",
     "WhatsAppAuthConfig",
+    "WhatsAppDiscoveryError",
+    "discover_chats",
     "fetch_messages",
     "sync",
 ]
